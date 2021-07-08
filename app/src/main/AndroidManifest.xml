@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationToConnectPeople">
-        <activity android:name=".OptionChooseActivity"></activity>
+        <activity android:name=".HospitalBedBloodBankActivity"></activity>
+        <activity android:name=".NGOActivity" />
+        <activity android:name=".HospitalBedListsActivity" />
+        <activity android:name=".OptionChooseActivity" />
         <activity android:name=".RegistrationPage" />
         <activity android:name=".MainActivity">
             <intent-filter>

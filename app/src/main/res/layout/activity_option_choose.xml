@@ -36,71 +36,32 @@
         android:layout_marginEnd="75dp"
         android:layout_marginRight="75dp"
         android:backgroundTint="#E7F2F8"
-        android:text="Hospital Bed availability"
+        android:text="Details for Hospital and other requirements"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.105" />
+        app:layout_constraintVertical_bias="0.208" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ngoButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="75dp"
         android:layout_marginLeft="75dp"
-        android:layout_marginTop="10sp"
         android:layout_marginEnd="75dp"
         android:layout_marginRight="75dp"
-        android:backgroundTint="#74BDCB"
-        android:text="BLOOD BANK"
+        android:backgroundTint="#FFA384"
+        android:text="NGO DETAILS"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BedAvailabilityBTN"
-        app:layout_constraintVertical_bias="0.056" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="75dp"
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="10sp"
-        android:layout_marginEnd="75dp"
-        android:layout_marginRight="75dp"
-        android:backgroundTint="#FFA384"
-        android:text="NGO"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.07" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="75dp"
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="75dp"
-        android:layout_marginRight="75dp"
-        android:backgroundTint="#EFE7BC"
-        android:text="Pharmacies"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <TextView
         android:id="@+id/textView3"
